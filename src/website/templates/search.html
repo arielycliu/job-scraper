@@ -6,9 +6,12 @@
     <title>Job Board Scrap</title>
     <link rel="stylesheet" href="/static/style.css"/>
 </head>
-<body class="search"> 
+<body class="search">
 	<h1 class="search_title">Scraped Jobs</h1>
     <h4 class="search_subtitle">{{count}} jobs found for {{keyword}} in {{location}}.</h4>
+	<div class="gradient_button">
+		<a href="/download">Download CSV</a>
+	</div>
 	<div class="wrap_grid">
 		<div class="wrap_div"> </div>
 		<div class="job_flex_grid">

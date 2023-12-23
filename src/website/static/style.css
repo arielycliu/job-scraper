@@ -169,12 +169,13 @@ button:hover {
     background-color: var(--bg_lightblue);
     padding-top: 2rem;
     padding-bottom: 5rem;
+    text-align: center;
 }
 
 .search_subtitle {
     font-size: 1.2em;
     margin-top: 15px;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 }
 
 .search_title {
@@ -230,4 +231,31 @@ button:hover {
 .job_link {
     font-weight: 700;
     font-size: var(--about_skilltag);
+}
+
+/*CSV Button*/
+.gradient_button {
+    background-image: linear-gradient(to right, var(--gradient_pink) 0%, var(--gradient_blue) 50%, var(--gradient_purple) 100%);
+    color: var(--white);
+    font-weight: 700;
+    background-size: 200% auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 3em;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 3em;
+    padding: 0.5em 1.7em;
+    font-size: var(--button_text);
+    transition: 0.5s;
+}
+.gradient_button:hover {
+    background-position: right center;
+    cursor: pointer;
+}
+.gradient_button a {
+    color: var(--white);
 }
