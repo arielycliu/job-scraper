@@ -30,7 +30,6 @@ cd job-scrapper
 3. Press submit and scroll through postings
 
 ### 🧪 Tests
-Tests and how to run them
 Under the src/tests folder I have tests that cover pulling from Indeed and writing to csv.
 
 ##### 📃 License
