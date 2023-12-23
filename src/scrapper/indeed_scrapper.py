@@ -43,8 +43,8 @@ class IndeedScrapper():
                 location_element = job.find("div", {"data-testid": "text-location"})
                 location = location_element.text
                 # Extract additional tags of the job
-                tag_element = job.find("div", {"data-testid": "attribute_snippet_testid"})
-                tags = tag_element.text
+                # tag_element = job.find("div", {"data-testid": "attribute_snippet_testid"})
+                # tags = tag_element.text
                 # Extract the description of the job
                 snippet_element = job.find("div", class_="job-snippet").find("li")
                 snippet = snippet_element.text
