@@ -1,5 +1,5 @@
 from src.scrapper.indeed_scrapper import IndeedScrapper
-from src.csv_writer import write_to_csv
+from src.csv.csv_writer import write_to_csv
 import csv
 
 def test_indeed():
@@ -12,7 +12,7 @@ def test_writing_csv():
     job_data = indeed.fetch_data()
     write_to_csv("job_data.csv", job_data)
 
-    with open("C:/Users/ariel/!Github/job-scrapper/src/csv_data/job_data.csv", "r") as file:
+    with open("C:/Users/ariel/!Github/job-scrapper/src/csv/job_data.csv", "r") as file:
         reader = csv.reader(file)
         header = next(reader)
         assert next(reader) is not None
