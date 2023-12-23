@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board Scrap</title>
+    <link rel="stylesheet" href="/static/style.css"/>
+</head>
+<body class="search"> 
+	<h1 class="search_title">Scraped Jobs</h1>
+    <h4 class="search_subtitle">{{count}} jobs found for {{keyword}} in {{location}}.</h4>
+	<div class="wrap_grid">
+		<div class="wrap_div"> </div>
+		<div class="job_flex_grid">
+			{% for item in data %}
+			<div class="job_posting">
+				<h3>{{item[0]}}</h3>
+				<h4>{{item[1]}}</h4>
+				<h5 class="location_text">{{item[2]}}</h5>
+				<h5>{{item[3]}}</h5>
+				<h5 class="job_link"><a href="{{item[4]}}" target="_blank">See Original Posting</a></h5>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="wrap_div"> </div>
+		</div>
+</body>
+</html>
