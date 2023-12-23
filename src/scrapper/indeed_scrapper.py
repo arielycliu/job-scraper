@@ -5,6 +5,7 @@ from zenrows import ZenRowsClient
 from bs4 import BeautifulSoup
 import re
 
+# Composing the URL
 base_url = "https://ca.indeed.com"
 job_keywords = "Intern"
 location = "Mississauga"
