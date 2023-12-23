@@ -130,6 +130,11 @@ input {
     margin-top: 5px;
 }
 
+::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
 .keywords {
     flex-grow: 3;
     flex-basis: 200px;
@@ -154,4 +159,5 @@ button {
 }
 button:hover {
     background-color: #524EFF;
+    cursor: pointer;
 }
