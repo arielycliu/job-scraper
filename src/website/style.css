@@ -1,0 +1,157 @@
+/*Reused from my personal website at https://github.com/arielycliu/arielycliu.github.io/tree/master*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --white: #fff;
+    --black: #111;
+    --lightgrey: #c7c7c7;
+    --grey: #b3b3b3;
+    --outlinegrey: #F2F4F6;
+    --darkdarkgrey: #4C4C4C;
+    --bg_grey: #F0F2F5;
+    --accent_arrow: #8d75c9;
+    --accent_blue: #524EFF;
+    --accent_purple: #8366CD;
+    --gradient_pink: #C24FAC;
+    --gradient_blue: #427CEE;
+    --gradient_purple: #630DB9;
+    
+    --menu_logo: 1.3em;
+    --menu_buttons: 1em;
+
+    --home_title: 4vw;
+    --about_skilltag: 0.9em;
+    --about_ariel_title: 1.8em;
+    --contact_socialbar: 2.3em;
+    --contact_text: 1.5em;
+
+    --section_title: 2.7em;
+    --section_subtitle: 1.3em;
+    --body_text: 1em;
+    --button_text: 1.15em;
+
+    --marginleft_about: 11vw;
+    --marginright_about: 10vw;
+
+    --padding_portfolio: 7vw;
+}
+
+/* home: 3.2em  */
+
+* {
+    font-family: 'Mulish';
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body {
+    justify-content: center;
+    text-align: center;
+}
+section {
+    position: relative;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+
+/* Headings */
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    display: inline-block;
+}
+h2 {
+    font-weight: 700; /*bold*/
+    font-size: var(--section_subtitle);
+}
+h3 {
+    font-weight: 700; /*Button bold*/
+    font-family: 'Mulish';
+}
+h4 {
+    font-weight: 600; /*Medium*/
+    font-style: italic;
+    font-size: var(--body_text);
+}
+h5 {
+    font-weight: 300; /*light*/
+}
+p {
+    font-weight: 400; /*regular*/
+    font-size: var(--body_text);
+}
+
+/* Header */
+.home_title {
+    text-align: center;
+    padding-top: 12%;
+    padding-bottom: 2rem;
+    font-size: var(--home_title);
+    margin: 0%;
+}
+
+.home_title:hover {
+    font-family: 'Montserrat';
+    background: -webkit-linear-gradient(60deg, var(--gradient_pink), var(--gradient_blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Search Form */
+.form_div {
+    display: flex;
+}
+
+div {
+    flex-grow: 1;
+}
+
+form {
+    flex: 1.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 24px;
+    border: 2px solid var(--darkdarkgrey);
+}
+
+label {
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    height: 2.5rem;
+    display: block;
+    margin-top: 5px;
+}
+
+.keywords {
+    flex-grow: 3;
+    flex-basis: 200px;
+}
+
+.location {
+    flex-grow: 1;
+    flex-basis: 120px;
+}
+
+button {
+    flex-grow: 1;
+    flex-basis: 80px;
+    align-self: stretch;
+    margin: 0.3rem 0;
+    background-color: var(--gradient_blue);
+    color: #F0F2F5;
+    font-weight: 700;
+    font-size: var(--button_text);
+    border-radius: 10px;
+    border: transparent;
+}
+button:hover {
+    background-color: #524EFF;
+}
