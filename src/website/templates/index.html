@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Scraper</title>
-    <link href="style.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="/static/style.css"/>
 </head>
 <body>
     <h1 class="home_title">Job Board</h1>
     <div class="form_div">
         <div> </div>
-        <form>
+        <form action="/search" method="get">
             <label class="keywords" for="keywords-field">
                 Job Keywords:
                 <input type="text" name="keywords-field" placeholder="Python Intern"/>
