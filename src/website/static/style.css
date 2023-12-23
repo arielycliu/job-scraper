@@ -16,7 +16,8 @@
     --gradient_pink: #C24FAC;
     --gradient_blue: #427CEE;
     --gradient_purple: #630DB9;
-    
+    --bg_lightblue: rgb(240, 253, 255);
+
     --menu_logo: 1.3em;
     --menu_buttons: 1em;
 
@@ -160,4 +161,73 @@ button {
 button:hover {
     background-color: #524EFF;
     cursor: pointer;
+}
+
+
+/* Search Page */
+.search {
+    background-color: var(--bg_lightblue);
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.search_subtitle {
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 3em;
+}
+
+.search_title {
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
+.wrap_grid {
+    display: flex;
+}
+
+.wrap_div {
+    flex-grow: 0.6
+}
+
+.job_flex_grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    background-color: var(--bg_lightblue);
+    flex: 3 1 0;
+    align-items: flex-start;
+}
+
+.job_posting {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-color: var(--white);
+    border: 1px solid var(--lightgrey);
+    border-radius: 15px;
+    align-items: center;
+    width: 20%;
+    flex: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job_posting h3, 
+.job_posting h4,
+.job_posting h5 {
+    margin: 8px;
+}  
+
+.location_text {
+    background-color: var(--lightgrey);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 0.3em 1em;
+    font-size: var(--about_skilltag);
+}
+
+.job_link {
+    font-weight: 700;
+    font-size: var(--about_skilltag);
 }
