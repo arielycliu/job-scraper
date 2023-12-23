@@ -3,10 +3,12 @@ from src.scrapper.indeed_scrapper import IndeedScrapper
 
 app = Flask("Job Board")
 
+# Render main page
 @app.route('/')
 def index():
     return render_template("index.html")
 
+# Render search results page
 @app.route('/search')
 def search():
     keyword = request.args.get("keywords-field")
