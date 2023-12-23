@@ -14,6 +14,7 @@ Credit to [kahngjoonkoh](https://github.com/kahngjoonkoh/python-job-scraper/tree
 
 #### Click the image below to see a (very) short demo
 [![Job Scrapper Website Demo](https://github.com/arielycliu/job-scrapper/blob/master/demo_img/JobScraperWebsiteHomepage.png)](https://clipchamp.com/watch/LjLu8QQ3zP5)
+[![Job Scrapper Website Search Page](https://github.com/arielycliu/job-scrapper/blob/master/demo_img/JobScraperWebsiteSearchpage.png)](https://clipchamp.com/watch/LjLu8QQ3zP5)
 
 ## 🛠️ Installation
 1. Clone the repository
