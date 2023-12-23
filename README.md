@@ -1,7 +1,7 @@
 # Flask Job Board and Web Scraper 🖥️🖱️
 ---
 
-Scraps from various job postings, and presents the jobs to the user as a dynamic Flask website or a downloadable csv file.
+Pulls results from various job postings, and presents the jobs to the user as a dynamic Flask website or a downloadable csv file.
 
 ## 💼 Inspiration
 Recently, I've been applying to a lot of internships and I wanted to do a web scraping project.
